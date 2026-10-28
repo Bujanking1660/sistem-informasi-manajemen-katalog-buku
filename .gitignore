@@ -1,0 +1,35 @@
+# Konfigurasi & kredensial lokal
+config.local.php
+
+# Dependensi / vendor
+vendor/
+node_modules/
+
+# Runtime & log
+*.log
+error/
+
+# Sistem operasi
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File environment
+.env
+.env.*
+!.env.example
+
+# Cache & temporary
+cache/
+tmp/
+temp/
+*.cache
+
+# Laragon / XAMPP runtime artifacts
+composer.phar
